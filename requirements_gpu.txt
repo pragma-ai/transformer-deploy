@@ -4,3 +4,4 @@ torch==1.10.0+cu113
 nvidia-tensorrt
 onnx_graphsurgeon
 polygraphy
+numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
